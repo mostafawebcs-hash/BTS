@@ -1,0 +1,224 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.brand-logo{
+    padding: 0px 10px;
+    width: 90px;
+    max-width: 90px;
+    height: 70px;
+    vertical-align: middle;
+    
+}
+.navbar-dark{
+    margin: 0px;
+    border: 0px;
+    border-radius: 0px;
+    padding: 0px;
+    height: 70px;
+    background-color: #1a1a1a; !important
+    box-shadow: 0px 1px 3px rgba(42, 42, 42, 0.2);
+    letter-spacing:normal;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding:24px 25px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #ec3237;  
+}
+.home{
+    background-image: url( ../imgs/ex/cover.jpg);
+    height: 650px;
+    background-size: cover;
+    position: relative;
+   }
+.home .cover-overlay{
+    position: absolute;
+    background-color: rgba(236, 51, 55, 0.7);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    position: relative;
+    
+}
+.cover-content{
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+    position: absolute;
+    top:10rem;
+    left: 2rem;
+   
+}
+.cover-title{
+        font-weight: 700;
+    font-size: 4em;
+    color: #ffffff;
+    text-shadow: 0px 5px 10px #af2424;
+    
+    
+}
+.cover_cta {
+    margin-top: 15px;
+}
+.btn_inverse {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;}
+.btn {
+    padding: 10px 25px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    transition: all 0.2s ease-in-out;
+}
+.section_scroll {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    color: #ffffff;
+        -webkit-transform: translate();
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 100%;
+animation-name: Floatingx;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;}
+@keyframes Floatingx{
+    0%{}
+    100%{0%,50%}
+}
+.section_scroll:hover{
+    color: #fff;
+    
+}
+.fa-4x {
+    font-size: 4em;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+}
+.about-info, .what-ido-info{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.social {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0px;
+    padding-top: 25px;
+    border-top: 1px solid #fafafa;
+}
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;}
+.social{
+    position: relative;
+    left: 0;
+}
+.social_ico li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    
+    margin-right: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    border: 1px solid #999999;
+       color: #777777;
+    float: right;
+    
+}
+.social_ico li a i {
+    font-size: 1.4em;
+    text-align: center;
+    position: relative;
+    left: 0;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+}
+.progress-bar{
+    background-color: #ec3237;
+}
+.btn_cta{
+  background-color:  #ec3237;
+    color: #ffffff;
+}
+.btn_cta:hover{
+        background-color: #c62d32;
+    color: #ffffff;
+}
+.what-inf{
+    background-color: #f5f5f5;
+}
+.service_wrap {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 1px solid #eeeeee;
+    box-shadow: 0px 1px 4px rgba(107, 69, 69, 0.050);
+    
+}
+.service_icon {
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    margin-bottom: 15px;
+    background-color: #eeeeee;
+    color: #777777;
+    text-align: center;
+}
+.service_icon i {
+    font-size: 1.4em;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;}
+.service_title {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.service_wrap p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #777777;
+}
+.counter1{
+    background-image: url(../imgs/ex/project-counter.jpg);
+    background-attachment: fixed;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    
+}
+.counter_wrap {
+    padding: 15px 0px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+.counter_icon {
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    color: #ec3237;
+    text-align: center;
+}
+.counter {
+    font-size: 3em;
+    color: #ffffff;
+    font-weight: 600;
+}
+.counter_title {
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #ec3237;
+}
